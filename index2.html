@@ -26,7 +26,7 @@
         }
       </style>
 </head>
-<body class="poppins-font">
+<body class="poppins-font bg-slate-200">
     <header>
         <nav class="bg-white w-10/12 flex justify-between mx-auto rounded-2xl">
             <div class="flex pl-6 py-6">
@@ -36,13 +36,60 @@
               </p>
             </div>
             <div class="flex justify-center items-center">
-              <button>
-                
-              </button>
-              
+                <button id="desk-back" class="bg-[#3752FD] text-white font-semibold rounded-[8px] w-36 h-12 m-4">Back to Desk</button>
             </div>
           </nav>
     </header>
-    
+    <main>
+       <section class="w-10/12 mx-auto">
+        <h1 class=" mx-auto font-bold text-3xl text-center p-4">Blogs</h1>
+        <div class="bg-white mx-auto my-2 ">
+            <div> 
+                <p class="p-4 border-b border-dashed border-slate-200 font-bold">Question-1: What are the different ways to select an element in the DOM?
+                </p>
+            </div>
+            <div>
+                <p class="font-light p-4">There are some ways to select a HTML Element in DOM in JavaScript. These are : getElementById(), getElementsByClassName(), getElementsByTagName(), querySelector(), querySelectorAll(), getElementsByName(). 
+                </p></div>
+        </div>
+        <div class="bg-white mx-auto my-2 ">
+            <div> 
+                <p class="p-4 border-b border-dashed border-slate-200  font-bold">Question-2: What is the difference between innerHTML, innerText, and textContent ?
+                </p>
+            </div>
+            <div>
+                <p class="font-light p-4">The innerHTML returns or set the whole content of element including HTML tag. The innerText only returns the text of element and ignores HTML tag. The textContent returns all the text of element and ignores HTML tag. 
+                </p></div>
+        </div>
+        <div class="bg-white mx-auto my-2 ">
+            <div> 
+                <p class="p-4 border-b border-dashed border-slate-200 font-bold">Question-3: What is event delegation in the DOM?
+                </p>
+            </div>
+            <div>
+                <p class="font-light p-4">Event Delegation is a technique where event listener is set on a parent so that the event also works on its child. 
+                </p></div>
+        </div>
+        <div class="bg-white mx-auto my-2 ">
+            <div> 
+                <p class="p-4 border-b border-dashed border-slate-200  font-bold">Question-4: What is event bubbling in the DOM?
+                </p>
+            </div>
+            <div>
+                <p class="font-light p-4">Event bubbling is a process where if a event is triggered in a child element that event first works on the child element then gradually on its parents and then on the upward all parents. 
+                </p></div>
+        </div>
+        <div class="bg-white mx-auto my-2 ">
+            <div> 
+                <p class="p-4 border-b border-dashed border-slate-200 font-bold">Question-5: How do you create, add, and remove elements using JavaScript?
+                </p>
+            </div>
+            <div>
+                <p class="font-light p-4">In JavaScript to create an element we use document.createElement(), to add an element parent.appendChild(), to remove an element  parent.removeChild().
+                </p></div>
+        </div>
+       </section>
+    </main>
+    <script src="javascript.js"></script>
 </body>
 </html>
